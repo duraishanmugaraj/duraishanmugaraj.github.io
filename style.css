@@ -275,4 +275,134 @@ body > .container-fluid {
     }
     .tilt-in-fwd-tr{-webkit-animation:tilt-in-fwd-tr .6s cubic-bezier(.25,.46,.45,.94) both;animation:tilt-in-fwd-tr .6s cubic-bezier(.25,.46,.45,.94) both}
     @-webkit-keyframes tilt-in-fwd-tr{0%{-webkit-transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}@keyframes tilt-in-fwd-tr{0%{-webkit-transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);transform:rotateY(20deg) rotateX(35deg) translate(300px,-300px) skew(-35deg,10deg);opacity:0}100%{-webkit-transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);transform:rotateY(0) rotateX(0deg) translate(0,0) skew(0deg,0deg);opacity:1}}
-    
+
+    @-webkit-keyframes orbit {
+  0% {
+    -webkit-transform: rotateY(90deg) rotate(0deg);
+  }
+  60% {
+    -webkit-transform: rotateY(90deg) rotate(-180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(90deg) rotate(-360deg);
+  }
+}
+@-moz-keyframes orbit {
+  0% {
+    -moz-transform: rotateY(90deg) rotate(0deg);
+  }
+  60% {
+    -moz-transform: rotateY(90deg) rotate(-180deg);
+  }
+  100% {
+    -moz-transform: rotateY(90deg) rotate(-360deg);
+  }
+}
+@keyframes orbit {
+  0% {
+    -webkit-transform: rotateY(90deg) rotate(0deg);
+    -moz-transform: rotateY(90deg) rotate(0deg);
+    -ms-transform: rotateY(90deg) rotate(0deg);
+    -o-transform: rotateY(90deg) rotate(0deg);
+    transform: rotateY(90deg) rotate(0deg);
+  }
+  60% {
+    -webkit-transform: rotateY(90deg) rotate(-180deg);
+    -moz-transform: rotateY(90deg) rotate(-180deg);
+    -ms-transform: rotateY(90deg) rotate(-180deg);
+    -o-transform: rotateY(90deg) rotate(-180deg);
+    transform: rotateY(90deg) rotate(-180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(90deg) rotate(-360deg);
+    -moz-transform: rotateY(90deg) rotate(-360deg);
+    -ms-transform: rotateY(90deg) rotate(-360deg);
+    -o-transform: rotateY(90deg) rotate(-360deg);
+    transform: rotateY(90deg) rotate(-360deg);
+  }
+}
+body {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding: 20px 30px 20px 70px;
+  background: rgba(60, 162, 162, 0.6);
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.button:hover {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  transform: translateY(-5px);
+  color: rgba(0, 0, 0, 0.8);
+  background: rgba(60, 162, 162, 0.8);
+}
+.button:hover > span {
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
+  -webkit-transform: rotateY(90deg) rotate(-360deg);
+  -moz-transform: rotateY(90deg) rotate(-360deg);
+  -ms-transform: rotateY(90deg) rotate(-360deg);
+  -o-transform: rotateY(90deg) rotate(-360deg);
+  transform: rotateY(90deg) rotate(-360deg);
+}
+.button > span {
+  width: 80px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -40px;
+  bottom: -40px;
+  border-radius: 50%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateY(90deg) rotate(0deg);
+  -moz-transform: rotateY(90deg) rotate(0deg);
+  -ms-transform: rotateY(90deg) rotate(0deg);
+  -o-transform: rotateY(90deg) rotate(0deg);
+  transform: rotateY(90deg) rotate(0deg);
+}
+.button > span > span {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  width: 16px;
+  height: 17px;
+  left: 0;
+  top: 50px;
+  -webkit-transform: rotateY(-90deg);
+  -moz-transform: rotateY(-90deg);
+  -ms-transform: rotateY(-90deg);
+  -o-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+.button > span > span::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  margin-left: -7px;
+  border-top: 16px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 0 solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
