@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quatt cento");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;1,700&display=swap');
 .about-tools ul li, .contact-social-icons ul a li {
   text-align: center; }
 
@@ -41,8 +42,8 @@ img {
 
 body {
   height: 100%;
-  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-  background-color: #25b79f;
+  font-family: "Barlow",Comfortaa, Helvetica, Arial, sans-serif;
+  background-color: #1B1C1E;
   /* Margin bottom by footer height */
   margin-bottom: 60px; }
 
@@ -51,12 +52,17 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
-  color: #07374a; }
+  font-family: "Barlow",Comfortaa, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+
+  color: #FFFFFF; }
 
 p {
-  font-family: "Quattrocento", sans-serif;
-  color: #f0f0e6; }
+  font-family: "Barlow", sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
+   }
 
 body > .container-fluid {
   padding: 60px 15px 0; }
@@ -72,7 +78,7 @@ body > .container-fluid {
   background-color: transparent;
   background: transparent;
   border: none;
-  color: #f0f0e6;
+  color: #303030;
   z-index: 100;
   margin-bottom: 0;
   border-radius: 0;
@@ -82,48 +88,48 @@ body > .container-fluid {
 .navbar-brand {
   display: none;
   margin-top: 10px;
-  color: #f0f0e6;
+  color: #303030;
   font-weight: 400; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #f0f0e6;
+  color: #fff;
   font-weight: 500;
   font-size: 1em;
   text-transform: lowercase;
   margin: 10px 5px 5px 5px;
   border-radius: 5px; }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-  color: #f0f0e6;
-  border: 1px solid #f0f0e6; }
+  color: #fff;
+  border: 1px solid #303030; }
 .navbar-default .navbar-nav > li > a:visited {
-  color: #f0f0e6;
+  color: #303030;
   text-decoration: none; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
-  color: #f0f0e6; }
+  color: #303030; }
 .navbar-default .navbar-toggle {
-  border-color: #f0f0e6; }
+  border-color: #303030; }
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: #07374a; }
+    background-color: #FFFFFF; }
   .navbar-default .navbar-toggle .icon-bar {
-    color: #f0f0e6;
-    background-color: #f0f0e6; }
+    color: #303030;
+    background-color: #303030; }
 .navbar-default .navbar-collapse.collapse.in ul {
-  background-color: #07374a; }
+  background-color: #FFFFFF; }
 
 /* Solid class attached on scroll past first section */
 .navbar.solid {
-  background-color: #07374a;
+  background-color: #FFFFFF;
   -webkit-transition: background-color 1s ease 0s;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px rgba(7, 55, 74, 0.2); }
   .navbar.solid .navbar-brand {
     display: inline-block;
-    color: #f0f0e6;
+    color: #303030;
     -webkit-transition: color 1s ease 0s;
     transition: color 1s ease 0s; }
   .navbar.solid .navbar-nav > li > a {
-    color: #f0f0e6;
+    color: #303030;
     -webkit-transition: color 1s ease 0s;
     transition: color 1s ease 0s; }
 
@@ -134,7 +140,7 @@ body > .container-fluid {
     height: 100vh;
     display: -webkit-box;
     display: flex;
-    background-color: #25b79f; }
+    background-color: #1B1C1E; }
   .cover.bottom {
     padding: 10% 0 10% 0; }
 
@@ -151,9 +157,9 @@ body > .container-fluid {
       padding-top: 0px; } }
 
 #about {
-  background-color: #07374a; }
+  background-color: #FFFFFF; }
   #about h2 {
-    color: #25b79f; }
+    color: #1B1C1E; }
 
 .profile-img {
   margin-bottom: 15px;
@@ -172,7 +178,7 @@ body > .container-fluid {
     .about-tools ul:first-child {
       padding-left: 0px; }
     .about-tools ul {
-      color: #25b79f;
+      color: #1B1C1E;
       list-style: none; }
       .about-tools ul li {
         padding-top: 0.75em; }
@@ -184,10 +190,10 @@ body > .container-fluid {
       .about-last {
         padding-top: 0; } }
     .about-last p {
-      color: #25b79f; }
+      color: #1B1C1E; }
 
 #portfolio {
-  background-color: #25b79f; }
+  background-color: #1B1C1E; }
   #portfolio h2 {
     padding-bottom: 1.25em; }
 
@@ -208,29 +214,29 @@ body > .container-fluid {
     margin-bottom: 10%; } }
 .portfolio-projects--btn {
   background: transparent;
-  color: #07374a;
-  border: 1px solid #07374a;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 5px;
   margin-bottom: 1.25em; }
   .portfolio-projects--btn:hover {
-    background: #07374a;
-    color: #f0f0e6; }
+    background: #FFFFFF;
+    color: #303030; }
 .portfolio-projects--image {
   margin-bottom: 1.875em;
   padding-top: 5%; }
 
 #contact {
-  background-color: #07374a; }
+  background-color: #FFFFFF; }
   #contact h2 {
-    color: #25b79f; }
+    color: #1B1C1E; }
 
 .contact-social-icons p {
-  color: #25b79f; }
+  color: #1B1C1E; }
 .contact-social-icons ul a {
-  color: #25b79f;
+  color: #1B1C1E;
   list-style: none; }
   .contact-social-icons ul a:hover {
-    color: #f0f0e6; }
+    color: #303030; }
   .contact-social-icons ul a li {
     display: inline-block;
     padding: 2%; }
@@ -240,24 +246,30 @@ body > .container-fluid {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 30px;
-  background-color: #07374a;
-  color: #f0f0e6; }
+  background-color: #FFFFFF;
+  color: #303030; }
 
 #scrollIcon, #scrollTopIcon {
   margin-top: 200px;
   padding: 10px;
   font-size: 1.5em;
-  color: #07374a;
-  border: solid 2px #07374a;
+  color: #FFFFFF;
+  border: solid 2px #FFFFFF;
   border-radius: 50%; }
 
 #scrollTopIcon {
   margin-top: 10px;
   font-size: 1em;
-  color: #f0f0e6;
-  border-color: #f0f0e6; }
+  color: #303030;
+  border-color: #303030; }
 
 .back-to-top {
   display: none; }
   .back-to-top.visible {
     display: block; }
+    #ptag{
+      font-size: 30px;
+    }
+    #htag{
+        font-size: 50px;
+    }
