@@ -43,7 +43,7 @@ img {
 body {
   height: 100%;
   font-family: "Barlow",Comfortaa, Helvetica, Arial, sans-serif;
-  background-color: #1B1C1E;
+  background-color: #16101f;
   /* Margin bottom by footer height */
   margin-bottom: 60px; }
 
@@ -140,7 +140,7 @@ body > .container-fluid {
     height: 100vh;
     display: -webkit-box;
     display: flex;
-    background-color: #1B1C1E; }
+    background-color: #16101f; }
   .cover.bottom {
     padding: 10% 0 10% 0; }
 
@@ -159,7 +159,7 @@ body > .container-fluid {
 #about {
   background-color: #FFFFFF; }
   #about h2 {
-    color: #1B1C1E; }
+    color: #16101f; }
 
 .profile-img {
   margin-bottom: 15px;
@@ -178,7 +178,7 @@ body > .container-fluid {
     .about-tools ul:first-child {
       padding-left: 0px; }
     .about-tools ul {
-      color: #1B1C1E;
+      color: #16101f;
       list-style: none; }
       .about-tools ul li {
         padding-top: 0.75em; }
@@ -190,10 +190,10 @@ body > .container-fluid {
       .about-last {
         padding-top: 0; } }
     .about-last p {
-      color: #1B1C1E; }
+      color: #16101f; }
 
 #portfolio {
-  background-color: #1B1C1E; }
+  background-color: #16101f; }
   #portfolio h2 {
     padding-bottom: 1.25em; }
 
@@ -228,12 +228,12 @@ body > .container-fluid {
 #contact {
   background-color: #FFFFFF; }
   #contact h2 {
-    color: #1B1C1E; }
+    color: #16101f; }
 
 .contact-social-icons p {
-  color: #1B1C1E; }
+  color: #16101f; }
 .contact-social-icons ul a {
-  color: #1B1C1E;
+  color: #16101f;
   list-style: none; }
   .contact-social-icons ul a:hover {
     color: #303030; }
@@ -405,4 +405,7 @@ body {
   border-bottom: 0 solid transparent;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
+}
+#durai{
+  color: #fb5607
 }
