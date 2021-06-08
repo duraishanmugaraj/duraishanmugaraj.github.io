@@ -22,7 +22,12 @@ function Clipboard_CopyTo(value) {
     document.execCommand("copy");
     document.body.removeChild(tempInput);
   }
-  
-document.querySelector('.coppy').onclick = function() {
+
+const coppyBtn = document.querySelector('.coppy')
+
+coppyBtn.onclick = function() {
+  coppyBtn.innerHTML='COPIED! <i class="fas fa-clipboard-check"></i>'
     Clipboard_CopyTo(document.querySelector("body").style.backgroundImage);
+    
+    setTimeout(function(){  coppyBtn.innerHTML='COPPY <i class="fas fa-copy"></i>' }, 1000);
   }
