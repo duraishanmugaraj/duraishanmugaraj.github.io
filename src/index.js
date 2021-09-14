@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './App';
 // import HashRouter from 'react-router-dom'
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
-ReactDOM.render(<Router>
+ReactDOM.render(<HashRouter>
     <App />
-</Router>
+</HashRouter>
     , document.getElementById('root'));
