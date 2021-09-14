@@ -42,6 +42,7 @@ div .navbar-logoX {
   width: 85vw;
   justify-content: end;
   margin-right: 0;
+  z-index: 99;
 }
 
 a {
@@ -73,6 +74,7 @@ nav .nav-linksX:hover {
 
 .fa-bars {
   color: #fff;
+  padding: 0;
 }
 
 .nav-links-mobileX {
@@ -84,6 +86,12 @@ nav .nav-linksX:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+  }
   .NavbarItemsX {
     position: relative;
   }
@@ -100,6 +108,7 @@ nav .nav-linksX:hover {
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    z-index: 99;
   }
 
   .nav-menuX.activeX {
@@ -107,7 +116,7 @@ nav .nav-linksX:hover {
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 2;
+    z-index: 99;
   }
 
   .nav-linksX {
@@ -135,6 +144,8 @@ nav .nav-linksX:hover {
     position: absolute;
     top: 0;
     right: 0;
+    bottom: 50px;
+
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -162,6 +173,9 @@ nav .nav-linksX:hover {
     background: #fff;
     color: #00c4cc;
     transition: 250ms;
+  }
+  .nav-menuX.activeX {
+    z-index: 99;
   }
 
   button {

@@ -61,15 +61,30 @@
 @media (max-width: 990px) {
   .ani,
   .main {
-    margin-top: 60px !important;
+    margin-top: 60px;
     margin: auto;
     text-align: center;
     padding: 10px;
+  }
+
+  .mainX {
+    margin-top: 200px !important;
   }
 }
 
 @media (max-width: 650px) {
   .main {
     font-size: 2rem;
+  }
+
+  .ani {
+    margin-top: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .mobile {
+    font-size: 10px !important;
   }
 }

@@ -4,14 +4,14 @@ import Fade from 'react-reveal/Fade';
 import "./Main.css"
 
 function Main() {
-    return (<section>
+    return (<section className="mainX">
         <div className="fluid-container">
             <div className="row">
                 <div className="col-lg-6 ">
 
                     <div className="main">
                         <Fade left cascade duration={2000}>
-                            <div>
+                            <div className="mobile">
                                 <span> Hi, I'm <span id="name">Durai Shanmugaraj </span><br />
                                     A Web Developer <br /></span>
 

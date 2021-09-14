@@ -2,6 +2,7 @@
   margin-top: 10px;
   background-color: #2a2a72;
   background-image: linear-gradient(90deg, #00c4cc, #7d2ae8);
+  z-index: 1;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
 }
 
 img {
-  filter: drop-shadow(5px 5px 5px #222);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .image {

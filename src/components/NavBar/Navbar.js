@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div>
-      <nav className='navbarX'>
+      <nav className='navbarX sticky'>
         <Link to='/' className='navbar-logoX' onClick={closeMobileMenu}>
           Durai
         </Link>

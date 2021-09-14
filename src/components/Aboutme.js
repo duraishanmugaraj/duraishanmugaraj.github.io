@@ -29,6 +29,9 @@ function Aboutme() {
                             <p>This is where you can describe about yourself. The more you describe about yourself, the more chances you can! </p>
 
                             <p>  Extra Information about you! like hobbies and your goals.</p>
+                            <p>This is where you can describe about yourself. The more you describe about yourself, the more chances you can! </p>
+
+                            <p>  Extra Information about you! like hobbies and your goals.</p>
                             <div id="hide">
                                 <a href="#" className="btn btn-lg "><span>Resume</span></a>
                             </div>
