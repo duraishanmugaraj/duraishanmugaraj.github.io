@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # My Portfolio
+=======
+# My Portfolio 
+>>>>>>> 72d81965c822517253cacc03edb348731d034b85
 
 Checkout -> https://duraishanmugaraj.github.io/
 
