@@ -4,3 +4,10 @@
     bottom: 60px;
   }
 }
+@media (max-width: 450px) {
+  .animi {
+    position: relative;
+    bottom: 60px;
+    padding-right: 50px;
+  }
+}

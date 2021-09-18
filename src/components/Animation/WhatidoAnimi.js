@@ -7,7 +7,7 @@ const WhatidoAnimi = () => {
 
     return (
         <div className="animi">
-            <LottieAnimation lotti={home} height={450} width={450} />
+            <LottieAnimation lotti={home} height={450} width={410} />
         </div>
     )
 }

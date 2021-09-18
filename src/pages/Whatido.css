@@ -51,11 +51,11 @@
 }
 
 div.logo {
-  padding-right: 70px;
-  padding-left: 70px;
+  padding-right: 95px;
+  padding-left: 95px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 970px) {
   .tags:hover:after {
     bottom: -23px;
   }
@@ -74,21 +74,21 @@ div.logo {
     padding: 40px 25px 15px 25px;
   }
   div.logo {
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 200px;
+    padding-left: 200px;
   }
 }
 
 @media (max-width: 750px) {
   div.logo {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
   }
 }
 
 @media (max-width: 590px) {
   div.logo {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 75px;
+    padding-left: 75px;
   }
 }
