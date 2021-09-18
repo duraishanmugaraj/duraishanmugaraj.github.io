@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Agustina";
+  src: local("Agustina"), url("Agustina.woff") format("woff2");
+  font-weight: bold;
+}
+
 .navbarX {
   background-color: #2a2a72;
   /* background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
@@ -16,16 +22,18 @@ div .navbar-logoX {
   color: #fff;
   justify-self: start;
   margin-left: 20px;
+  margin-top: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2.5rem;
-  font-family: "WindSong", cursive;
-  transform: rotate(-10deg);
+  /* font-family: "WindSong", cursive; */
+  font-family: "Agustina";
+  transform: rotate(-5deg);
   font-weight: 500;
 }
 
 .fontX {
-  font-family: "WindSong", cursive;
+  font-family: "Agustina";
 }
 
 .fa-firstdraft {
@@ -180,5 +188,11 @@ nav .nav-linksX:hover {
 
   button {
     display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav-menuX {
+    height: 45vh;
   }
 }

@@ -1,0 +1,94 @@
+.Whatido-title {
+  color: #272341;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.fullstack {
+  font-size: 40px;
+  font-weight: 501;
+  margin-top: 100px;
+  color: #272341;
+}
+
+.i {
+  padding: 40px 25px 30px 25px;
+}
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.tags {
+  display: inline;
+  position: relative;
+}
+
+.tags:hover:after {
+  background: #333;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  bottom: -20px;
+  color: #fff;
+  content: attr(gloss);
+
+  left: 20%;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 125px;
+}
+
+.tags:hover:before {
+  border: solid;
+  border-color: #333 transparent;
+  border-width: 0 6px 6px 6px;
+  bottom: 14px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  z-index: 99;
+}
+
+div.logo {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+@media (max-width: 1000px) {
+  .tags:hover:after {
+    bottom: -23px;
+  }
+  .tags:hover:before {
+    bottom: 10px;
+  }
+  .Whatido-title {
+    font-size: 50px;
+  }
+
+  .fullstack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .center .i-mobile {
+    padding: 40px 25px 15px 25px;
+  }
+  div.logo {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+
+@media (max-width: 750px) {
+  div.logo {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 590px) {
+  div.logo {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

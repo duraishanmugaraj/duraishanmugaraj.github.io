@@ -1,8 +1,11 @@
 import React from 'react';
 import Navbar from './components/NavBar/Navbar';
 import './App.css';
-import Main from "./components/Main"
-import Aboutme from './components/Aboutme';
+import Main from "./pages/Main"
+import Aboutme from './pages/Aboutme';
+import Whatido from './pages/Whatido';
+import Projects from './pages/Projects';
+import Contact from "./pages/Contact"
 
 function App() {
   return (<>
@@ -10,10 +13,9 @@ function App() {
     <Navbar />
     <Main />
     <Aboutme />
-    {/* Education
-    Tech Stack
-    Projects
-    Contact Me */}
+    <Whatido />
+    <Projects />
+    <Contact />
 
   </>);
 }

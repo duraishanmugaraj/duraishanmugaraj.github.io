@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import './Agustina.woff'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -11,9 +12,9 @@ function Navbar() {
   return (
     <div>
       <nav className='navbarX sticky'>
-        <Link to='/' className='navbar-logoX' onClick={closeMobileMenu}>
+        <a href="#mainX" className='navbar-logoX' onClick={closeMobileMenu}>
           Durai
-        </Link>
+        </a>
         <div className='menu-iconX' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>

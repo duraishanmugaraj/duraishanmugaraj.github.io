@@ -1,5 +1,5 @@
 import React from 'react';
-import Coder from "./Animation/Coder"
+import Coder from "../components/Animation/Coder"
 import Fade from 'react-reveal/Fade';
 import "./Main.css"
 
@@ -15,7 +15,7 @@ function Main() {
                                 <span> Hi, I'm <span id="name">Durai Shanmugaraj </span><br />
                                     A Web Developer <br /></span>
 
-                                <a href="#" className="btn btn-lg hide"><span>About Me</span></a>
+                                <a href="https://drive.google.com/file/d/1QBCMuJyjsOQxUqmnN3nGQrUnk3GP2-ER/view?usp=sharing" className="btn btn-lg hide"><span>RESUME</span></a>
                             </div>
                         </Fade>
 

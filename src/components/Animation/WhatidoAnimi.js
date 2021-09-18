@@ -1,14 +1,15 @@
 import React from 'react';
 import LottieAnimation from './Lottie';
-import home from './animi.json';
+import home from './whatidoAnimi.json';
+import "./wido.css"
 
-const Coder = () => {
+const WhatidoAnimi = () => {
 
     return (
-        <div>
+        <div className="animi">
             <LottieAnimation lotti={home} height={450} width={450} />
         </div>
     )
 }
 
-export default Coder;
+export default WhatidoAnimi;

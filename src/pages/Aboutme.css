@@ -1,0 +1,76 @@
+.aboutme {
+  margin-top: 72px;
+  background-color: #2a2a72;
+  background-image: linear-gradient(90deg, #00c4cc, #7d2ae8);
+  z-index: 1;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 0 4.5rem;
+  padding-top: 50px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.image {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.text {
+  padding: 0 100px 100px 0;
+  font-size: larger;
+}
+
+p {
+  color: white;
+  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (max-width: 950px) {
+  .text {
+    padding: 0 50px 50px 50px;
+    font-size: larger;
+  }
+}
+
+@media (max-width: 770px) {
+  .image {
+    padding-bottom: 50px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  #hide {
+    display: flex;
+    justify-content: center;
+  }
+  div p {
+    margin: auto;
+
+    padding: 10px;
+    text-align: center;
+  }
+  .text {
+    font-size: larger;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 550px) {
+  .text {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
