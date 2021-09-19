@@ -17,7 +17,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--grad);
+  background: var(--p_color);
 }
 .LoaderBalls__item:nth-child(1) {
   animation: bouncing 0.4s alternate infinite

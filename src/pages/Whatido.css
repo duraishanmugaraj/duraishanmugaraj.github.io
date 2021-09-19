@@ -11,6 +11,12 @@
   color: var(--txtcolor);
 }
 
+.img-fluid {
+  margin-top: 100px;
+}
+.col-lg-5 {
+  text-align: center;
+}
 .i {
   padding: 40px 25px 30px 25px;
 }
@@ -56,7 +62,11 @@ div.logo {
   margin-left: 95px;
 }
 
-@media (max-width: 970px) {
+@media (max-width: 990px) {
+  .img-fluid {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
   .tags:hover:after {
     bottom: -23px;
   }

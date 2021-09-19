@@ -15,7 +15,7 @@ function Aboutme() {
                 <div className="row">
                     <Fade left cascade duration={1500}>
                         <div className="col-lg-5 col-md-5 image">
-                            <img height="auto" width="300" src={aboutme.imgLink} alt="profile pic" />
+                            <img className="aboutme-img" height="auto" width="300" src={aboutme.imgLink} alt="profile pic" />
                         </div>
                     </Fade>
                     <Fade bottom cascade duration={1500}>

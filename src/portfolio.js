@@ -1,8 +1,8 @@
 export const globalStyles = {
-    "--grad": "linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% )",
-    // "--grad": "linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246))",
+    "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)",
+    // "--grad": "linear-gradient(315deg, #06bcfb 0%, #4884ee 74%)",
     "--txtcolor": "#272341",
-    "--p_color": "rgba(48,207,208,1)"
+    "--p_color": "#0499f2"
 }
 
 export const navbar_name = "Durai"
@@ -15,10 +15,12 @@ export const main = {
 
 export const aboutme = {
     imgLink: "https://raw.githubusercontent.com/duraishanmugaraj/duraishanmugaraj.github.io/master/src/components/Animation/wiz-min.jpg",
-    p1: "This is where you can describe about yourself.The more you describe about yourself, the more chances you can!",
-    p2: "This is where you can describe about yourself.The more you describe about yourself, the more chances you can!",
-    p3: "Extra Information about you!like hobbies and your goals."
+    p1: "Hey My name is Durai Shanmugaraj. I'm from India, Currently pursuing my final year in Computer Science Engineering.",
+    p2: "I'm a Tech Enthusiast who enjoys building awesome website that solves real world problems. I also do Cycling and Cricket in my free time.",
+    p3: "I am passionate about Full Stack Dev, Machine Learning & I enjoy learning new things."
 }
+
+export const whtido_illustration = "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
 
 export const whatido = [{
     name: "HTML5",
