@@ -17,6 +17,7 @@
 .center {
   text-align: center;
   align-items: center;
+  padding-left: 0;
 }
 
 .tags {
@@ -51,8 +52,8 @@
 }
 
 div.logo {
-  padding-right: 95px;
-  padding-left: 95px;
+  margin-right: 95px;
+  margin-left: 95px;
 }
 
 @media (max-width: 970px) {
@@ -74,21 +75,24 @@ div.logo {
     padding: 40px 25px 15px 25px;
   }
   div.logo {
-    padding-right: 200px;
-    padding-left: 200px;
+    margin-right: 200px;
+    margin-left: 200px;
   }
 }
 
 @media (max-width: 750px) {
   div.logo {
-    padding-right: 100px;
-    padding-left: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .i {
+    padding: 20px 0px 0px 0px;
   }
 }
 
 @media (max-width: 590px) {
   div.logo {
-    padding-right: 75px;
-    padding-left: 75px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 }

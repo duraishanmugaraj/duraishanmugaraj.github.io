@@ -5,19 +5,19 @@ import Tilt from 'react-tilt'
 
 const Project = (props) => {
     return <div className="fluid-container">
-        <div className="row">
+        <h5 className="prj-title">{props.title}</h5>
 
-            <div className="col-lg-6 project-t">
-                <Fade left cascade>
+        <div className="row">
+            <div className="col-lg-6 project-t ">
+                <Fade bottom cascade>
                     <div>
-                        <h5>{props.title}</h5>
                         <p className="p">{props.desc}</p>
                         <button ><span> <a id="a" target="_blank" href={props.github}>Source Code </a></span></button>
                     </div>
                 </Fade>
             </div>
 
-            <div className="col-lg-6 img">
+            <div className="col-lg-6 img order-first order-lg-last">
                 <a target="_blank" href={props.link}>
                     <Tilt className="Tilt" options={{ max: 10 }}  >
                         <img src={props.img} class="img-thumbnail" alt={props.title} />

@@ -1,15 +1,11 @@
 import React from 'react';
+import { links } from '../portfolio';
+import { SocialIcon } from 'react-social-icons';
 import Fade from 'react-reveal/Fade';
 import "./contact.css"
-import { SocialIcon } from 'react-social-icons';
-
-
-const links = ["https://www.linkedin.com/in/durai-shanmugaraj-r-050313192/",
-    "https://github.com/duraishanmugaraj",
-    "https://www.instagram.com/__durairaj__/?hl=en"]
 
 const Contact = () => {
-    return <div className="contact">
+    return <div className="contact" id="contact">
         <h1 className="contact-title">
             <Fade bottom cascade>Reach Out To Me!</Fade>
         </h1>
