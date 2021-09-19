@@ -1,6 +1,6 @@
 .projects {
   margin-top: 60px;
-  background-image: linear-gradient(90deg, #00c4cc, #7d2ae8);
+  background-image: var(--grad);
 }
 
 .project-title {

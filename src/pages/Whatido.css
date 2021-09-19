@@ -1,5 +1,5 @@
 .Whatido-title {
-  color: #272341;
+  color: var(--txtcolor);
   text-align: center;
   margin-bottom: 0;
 }
@@ -8,7 +8,7 @@
   font-size: 40px;
   font-weight: 501;
   margin-top: 100px;
-  color: #272341;
+  color: var(--txtcolor);
 }
 
 .i {

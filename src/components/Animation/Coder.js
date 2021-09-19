@@ -1,6 +1,6 @@
 import React from 'react';
 import LottieAnimation from './Lottie';
-import home from './animi.json';
+import home from './laptop.json';
 
 const Coder = () => {
 

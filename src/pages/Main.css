@@ -5,26 +5,26 @@ div.mobile {
   font-weight: 700;
   margin-bottom: 3.2rem;
 
-  color: #272341;
+  color: var(--txtcolor);
 }
 
 .main-title {
   font-size: 40px;
-  color: #272341;
+  color: var(--txtcolor);
   margin-bottom: 0;
   padding-top: 0;
   text-align: left;
+}
+.mainX {
+  margin-top: 100px;
 }
 .n {
   padding-bottom: 15px;
 }
 #name {
-  background: linear-gradient(90deg, #00c4cc, #7d2ae8);
-
+  background: var(--grad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* background: linear-gradient(90deg, #00c4cc, #7d2ae8);
-  color: #fff; */
 }
 
 .ani {
@@ -35,8 +35,8 @@ div.mobile {
 .btn {
   margin-top: 30px;
   background-color: #fff;
-  color: #009ffd;
-  border: 2px solid #009ffd !important;
+  color: var(--p_color);
+  border: 2px solid var(--p_color) !important;
   border-radius: 0px !important;
   font-size: 1.4rem;
   font-weight: 700;
@@ -51,7 +51,7 @@ div.mobile {
   color: #fff !important;
 }
 .btn:before {
-  background: #009ffd;
+  background: var(--p_color);
   content: "";
   height: 1000px;
   left: 50%;

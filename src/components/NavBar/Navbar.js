@@ -16,9 +16,6 @@ function Navbar() {
     setClick(false);
   }
 
-
-
-
   return (
     <div>
       <nav className='navbarX sticky'>

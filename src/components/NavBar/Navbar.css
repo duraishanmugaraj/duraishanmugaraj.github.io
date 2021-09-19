@@ -5,10 +5,7 @@
 }
 
 .navbarX {
-  background-color: #2a2a72;
-  /* background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); */
-  background-image: linear-gradient(90deg, #00c4cc, #7d2ae8);
-
+  background-image: var(--grad);
   height: 80px;
   display: flex;
   justify-content: center;
@@ -40,7 +37,12 @@ div .navbar-logoX {
   margin-left: 0.5rem;
   font-size: 1.6rem;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
 .nav-menuX {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -75,7 +77,7 @@ nav .nav-linksX {
 
 nav .nav-linksX:hover {
   text-decoration: none;
-  background-color: #00c4cc;
+  background-color: var(--p_color);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -94,12 +96,6 @@ nav .nav-linksX:hover {
 }
 
 @media screen and (max-width: 960px) {
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-  }
   .NavbarItemsX {
     position: relative;
   }
@@ -135,7 +131,7 @@ nav .nav-linksX:hover {
   }
 
   .nav-linksX:hover {
-    background-color: #00c4cc;
+    background-color: var(--p_color);
     border-radius: 0;
   }
 
@@ -171,7 +167,7 @@ nav .nav-linksX:hover {
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: #00c4cc;
+    background: var(--p_color);
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -179,7 +175,7 @@ nav .nav-linksX:hover {
 
   .nav-links-mobileX:hover {
     background: #fff;
-    color: #00c4cc;
+    color: var(--p_color);
     transition: 250ms;
   }
   .nav-menuX.activeX {

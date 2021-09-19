@@ -1,3 +1,10 @@
+export const globalStyles = {
+    "--grad": "linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% )",
+    // "--grad": "linear-gradient(to right, rgb(56, 189, 248), rgb(59, 130, 246))",
+    "--txtcolor": "#272341",
+    "--p_color": "rgba(48,207,208,1)"
+}
+
 export const navbar_name = "Durai"
 
 export const main = {
