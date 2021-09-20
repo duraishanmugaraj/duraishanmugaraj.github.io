@@ -1,13 +1,14 @@
 import React from 'react';
 import Coder from "../components/Animation/Coder"
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
 import { main } from '../portfolio';
 import "./Main.css"
 
 function Main() {
     return (<section className="mainX" id="main">
         <div className="fluid-container">
-            <Fade>
+            <Zoom duration={1000}>
                 <div className="row">
                     <div className="col-lg-6 ">
                         <div className="mobile">
@@ -22,7 +23,7 @@ function Main() {
                         <Coder />
                     </div>
                 </div>
-            </Fade>
+            </Zoom>
         </div >
     </section >
     );
