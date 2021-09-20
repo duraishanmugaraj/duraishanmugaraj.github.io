@@ -54,9 +54,8 @@ You will find `src/portfolio.js` file which contains the complete information ab
 
 ```python
 
+//I Would Highly Recommend You To Customize The Theme According To Your Taste.
 export const globalStyles = {
-
-//I Would Highly Recommend You To Customize The Theme According To Your Yaste.
     "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)",
     "--txtcolor": "#272341",
     "--p_color": "#0499f2"
@@ -72,7 +71,7 @@ export const main = {
     resume: "" //Resume Link
 }
 
-...
+... 
 ```
 
 You can change the theme , personal information , social media , skills, resume etc. in `src/portfolio.js` to directly reflect them in portfolio website.
