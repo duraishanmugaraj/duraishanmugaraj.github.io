@@ -16,12 +16,12 @@
 
 ## Features
 
--🔥 Completely Customizable (Edit portfolio.js File)
--🔥 Minimal UI + Reveal Animations
--🔥 Styled with Bootstrap v5 + Custom CSS
--🔥 Fully Responsive
--🔥 Reuseable React Components
--🔥 Well organized documentation
+- 🔥 Completely Customizable (Edit portfolio.js File)
+- 🔥 Minimal UI + Reveal Animations
+- 🔥 Styled with Bootstrap v5 + Custom CSS
+- 🔥 Fully Responsive
+- 🔥 Reuseable React Components
+- 🔥 Well organized documentation
 
 ## Technologies used 🛠️
 
