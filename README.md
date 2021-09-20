@@ -82,9 +82,9 @@ You can change the theme , personal information , social media , skills, resume 
 - I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the easiest way.
 
 
-## Show your support
+## Show your support 🙌
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if this project helped you! 
 
 
 ## References 👏🏻
