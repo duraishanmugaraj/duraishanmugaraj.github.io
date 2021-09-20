@@ -61,7 +61,7 @@ export const globalStyles = {
     "--p_color": "#0499f2"
 }
 
-// Navvigation Bar Name
+// Navigation Bar Name
 export const navbar_name = " " //Your Name
 
 // Main Page
