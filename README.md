@@ -7,12 +7,13 @@
   </a>
 </p>
 
-# Sections 📚
+## Sections 📚
 
 ⚡️ About me <br>
 ⚡️ Skills <br>
 ⚡️ Projects <br>
 ⚡️ Contact me <br>
+
 
 ## Features ✨
 
@@ -22,15 +23,23 @@
  🔥 Fully Responsive <br>
  🔥 Reuseable React Components <br>
 
+
 ## Technologies used 🛠️
 
  [✔️React](https://reactjs.org/) <br>
  [✔️react-reveal](https://www.react-reveal.com/) <br>
- [✔️styled-components](https://styled-components.com/) <br>
+ [✔️Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) <br>
+ [✔️react-tilt](https://www.npmjs.com/package/react-tilt) <br>
+ [✔️iconify](https://iconify.design/) <br>
+ [✔️lottie files](https://lottiefiles.com/blog/working-with-lottie/how-to-use-lottie-in-react-app) <br>
+ [✔️react-social-icons](https://www.npmjs.com/package/react-social-icons) <br>
+ [✔️react-tilt](https://www.npmjs.com/package/react-tilt) <br>
+ [✔️react-router-dom](https://reactrouter.com/web/guides/quick-start) <br>
+
 
 ## Customize it to make your own portfolio ✏️
 
-#### Step 1
+#### -Step 1
 Fork this repo!
 Clone this repo to your local machine.
 download required dependencies by executeing following command 
@@ -39,7 +48,7 @@ download required dependencies by executeing following command
   ```
 You can check it using `npm start`, it will open the website locally on your browser.
 
-#### Step 2
+#### -Step 2
 
 You will find `src/portfolio.js` file which contains the complete information about the user. The file looks something like below:
 
@@ -57,11 +66,18 @@ const socialMediaLinks = {
 ...
 ```
 
-You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+You can change the theme , personal information , social media , skills, resume etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+
+## Deployment 📦
+
+- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
+- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
+
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
 
 ## References 👏🏻
 
