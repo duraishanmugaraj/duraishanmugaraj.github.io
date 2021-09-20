@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.40f2d0a6.chunk.css",
-    "main.js": "/static/js/main.bdfa77dd.chunk.js",
-    "main.js.map": "/static/js/main.bdfa77dd.chunk.js.map",
+    "main.js": "/static/js/main.646176c2.chunk.js",
+    "main.js.map": "/static/js/main.646176c2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67adca9c.js",
     "runtime-main.js.map": "/static/js/runtime-main.67adca9c.js.map",
-    "static/js/2.6ac55ed5.chunk.js": "/static/js/2.6ac55ed5.chunk.js",
-    "static/js/2.6ac55ed5.chunk.js.map": "/static/js/2.6ac55ed5.chunk.js.map",
+    "static/js/2.df10968b.chunk.js": "/static/js/2.df10968b.chunk.js",
+    "static/js/2.df10968b.chunk.js.map": "/static/js/2.df10968b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.40f2d0a6.chunk.css.map": "/static/css/main.40f2d0a6.chunk.css.map",
-    "static/js/2.6ac55ed5.chunk.js.LICENSE.txt": "/static/js/2.6ac55ed5.chunk.js.LICENSE.txt",
+    "static/js/2.df10968b.chunk.js.LICENSE.txt": "/static/js/2.df10968b.chunk.js.LICENSE.txt",
     "static/media/Navbar.css": "/static/media/Agustina.eb0c59dd.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.67adca9c.js",
-    "static/js/2.6ac55ed5.chunk.js",
+    "static/js/2.df10968b.chunk.js",
     "static/css/main.40f2d0a6.chunk.css",
-    "static/js/main.bdfa77dd.chunk.js"
+    "static/js/main.646176c2.chunk.js"
   ]
 }
