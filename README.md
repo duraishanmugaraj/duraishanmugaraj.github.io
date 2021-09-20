@@ -9,25 +9,25 @@
 
 # Sections 📚
 
--⚡️ About me
--⚡️ Skills
--⚡️ Projects
--⚡️ Contact me
+<p>⚡️ About me </p>
+<p> ⚡️ Skills </p>
+<p> ⚡️ Projects </p>
+<p> ⚡️ Contact me </p>
 
 ## Features
 
-- 🔥 Completely Customizable (Edit portfolio.js File)
-- 🔥 Minimal UI + Reveal Animations
-- 🔥 Styled with Bootstrap v5 + Custom CSS
-- 🔥 Fully Responsive
-- 🔥 Reuseable React Components
-- 🔥 Well organized documentation
+<p> 🔥 Completely Customizable (Edit portfolio.js File) </p>
+<p> 🔥 Minimal UI + Reveal Animations </p>
+<p> 🔥 Styled with Bootstrap v5 + Custom CSS </p>
+<p> 🔥 Fully Responsive </p>
+<p> 🔥 Reuseable React Components </p>
+<p> 🔥 Well organized documentation </p>
 
 ## Technologies used 🛠️
 
--✔️ [React](https://reactjs.org/)
--✔️ [react-reveal](https://www.react-reveal.com/)
--✔️ [styled-components](https://styled-components.com/)
+<p> ✔️ [React](https://reactjs.org/) </p>
+<p> ✔️ [react-reveal](https://www.react-reveal.com/) </p>
+<p> ✔️ [styled-components](https://styled-components.com/) </p>
 
 # Customize it to make your own portfolio ✏️
 
