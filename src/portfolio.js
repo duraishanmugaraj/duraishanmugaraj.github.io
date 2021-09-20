@@ -1,83 +1,75 @@
+//I Would Highly Recommend You To Customize The Theme According To Your Taste.
 export const globalStyles = {
-    "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)",
+    "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)", // Use gradients only
     // "--grad": "linear-gradient(315deg, #06bcfb 0%, #4884ee 74%)",
     "--txtcolor": "#272341",
     "--p_color": "#0499f2"
 }
 
+// Navigation Bar Name
 export const navbar_name = "Durai"
 
+// Main Page
 export const main = {
     name: "Durai Shanmugaraj",
     doamin: "A Web Developer",
     resume: "https://drive.google.com/file/d/1QBCMuJyjsOQxUqmnN3nGQrUnk3GP2-ER/view?usp=sharing"
 }
 
+// AboutMe
 export const aboutme = {
     imgLink: "https://raw.githubusercontent.com/duraishanmugaraj/duraishanmugaraj.github.io/master/src/components/Animation/wiz-min.jpg",
-    p1: "Hey My name is Durai Shanmugaraj. I'm from India, Currently pursuing my final year in Computer Science Engineering.",
+    p1: "Hey,My name is Durai Shanmugaraj. I'm from India, Currently pursuing my final year in Computer Science Engineering.",
     p2: "I'm a Tech Enthusiast who enjoys building awesome website that solves real world problems. I also do Cycling and Cricket in my free time.",
     p3: "I am passionate about Full Stack Dev, Machine Learning & I enjoy learning new things."
 }
 
-export const whtido_illustration = "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg"
+// Skills
+export const whatido = {
+    illustration: "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg",
 
-export const whatido = [{
-    name: "HTML5",
-    style: {
-        content: 'url("https://api.iconify.design/icomoon-free/html-five.svg?color=%23e34f26&width=70&height=70")'
+    logos: [{
+        name: "HTML5",
+        iconifyClassName: "vscode-icons:file-type-html", // PS : Use iconify class name
+        id: "1"
     },
-    id: "1"
-},
-{
-    name: "CSS",
-    style: {
-        content: 'url("https://api.iconify.design/cib/css3.svg?color=%231572b6&width=70&height=70")'
+    {
+        name: "CSS",
+        iconifyClassName: "vscode-icons:file-type-css",
+        id: "2"
     },
-    id: "2"
-},
-{
-    name: "JavaScript",
-    style: {
-        content: 'url("https://api.iconify.design/grommet-icons/js.svg?width=70&height=70")'
+    {
+        name: "JavaScript",
+        iconifyClassName: "logos:javascript",
+        id: "3"
     },
-    id: "3"
-},
-{
-    name: "ReactJS",
-    style: {
-        content: 'url("https://api.iconify.design/logos/react.svg?color=%231572b6&width=70&height=70")'
+    {
+        name: "ReactJS",
+        iconifyClassName: "vscode-icons:file-type-reactjs",
+        id: "4"
     },
-    id: "4"
-},
-{
-    name: "NodeJS",
-    style: {
-        content: 'url("https://api.iconify.design/logos/nodejs.svg?color=%231572b6&width=70&height=70")'
+    {
+        name: "NodeJS",
+        iconifyClassName: "logos:nodejs",
+        id: "5"
     },
-    id: "5"
-},
-{
-    name: "MongoDB",
-    style: {
-        content: 'url("https://api.iconify.design/logos/mongodb.svg?color=%231572b6&width=70&height=70")'
+    {
+        name: "MongoDB",
+        iconifyClassName: "logos:mongodb",
+        id: "6"
+    }, {
+        name: "Java",
+        iconifyClassName: "logos:java",
+        id: "7"
     },
-    id: "6"
-}, {
-    name: "Java",
-    style: {
-        content: 'url("https://api.iconify.design/logos/java.svg?color=%231572b6&width=70&height=70")'
-    },
-    id: "7"
-},
-{
-    name: "Python",
-    style: {
-        content: 'url("https://api.iconify.design/logos/python.svg?color=%231572b6&width=70&height=70")'
-    },
-    id: "8"
-}]
+    {
+        name: "Python",
+        iconifyClassName: "logos:python",
+        id: "8"
+    }]
+}
 
+// Project Details
 export const details = [{
     id: 1,
     title: "Automobile Delearship System",
@@ -96,6 +88,7 @@ export const details = [{
 }
 ]
 
+// Social Media Links
 export const links = ["https://www.linkedin.com/in/durai-shanmugaraj-r-050313192/",
     "https://github.com/duraishanmugaraj",
     "https://www.instagram.com/__durairaj__/?hl=en"]
