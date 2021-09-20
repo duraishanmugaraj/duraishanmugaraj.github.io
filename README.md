@@ -56,19 +56,19 @@ You will find `src/portfolio.js` file which contains the complete information ab
 
 export const globalStyles = {
 
-// I Would Highly recommend you to customize the theme according to your taste.
+//I Would Highly Recommend You To Customize The Theme According To Your Yaste.
     "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)",
     "--txtcolor": "#272341",
     "--p_color": "#0499f2"
 }
 
 // Navvigation Bar Name
-export const navbar_name = "Durai"
+export const navbar_name = " " //Your Name
 
 // Main Page
 export const main = {
-    name: "", //Your Name
-    doamin: "A Web Developer", //Your Domain
+    name: " ", //Your Name
+    doamin: " ", //Your Domain
     resume: "" //Resume Link
 }
 
