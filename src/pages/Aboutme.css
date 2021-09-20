@@ -14,7 +14,7 @@ h1 {
   margin: 0 0 4.5rem;
   padding-top: 50px;
   text-transform: uppercase;
-  color: white;
+  color: var(--s_color);
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 p {
-  color: white;
+  color: var(--s_color);
   text-align: left;
   text-align: justify;
   text-justify: inter-word;

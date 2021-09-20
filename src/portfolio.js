@@ -1,9 +1,12 @@
 //I Would Highly Recommend You To Customize The Theme According To Your Taste.
 export const globalStyles = {
-    "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)", // Use gradients only
+
+    "--grad": "linear-gradient(315deg,#48a9fe,#00cdac)", // Use gradients only
+    // "--grad": "linear-gradient(315deg, #48a9fe 0%, #734ae8 74%)", // Use gradients only
     // "--grad": "linear-gradient(315deg, #06bcfb 0%, #4884ee 74%)",
     "--txtcolor": "#272341",
-    "--p_color": "#0499f2"
+    "--p_color": "#00cdac",
+    "--s_color": "#fff"
 }
 
 // Navigation Bar Name
@@ -26,8 +29,13 @@ export const aboutme = {
 
 // Skills
 export const whatido = {
-    illustration: "https://image.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg",
+    title: "Full Stack Development",
 
+    details: ["Building resposive website using React",
+        "Creating backend application in Node, Express",
+        "Building Simple RESTful CRUD APIs",
+        "Knowledge of SQL and No-SQL Databases",
+        "Knowledge of Object-Oriented programming languages like Java and Python"],
     logos: [{
         name: "HTML5",
         iconifyClassName: "vscode-icons:file-type-html", // PS : Use iconify class name

@@ -16,7 +16,7 @@
 
 div .navbar-logoX {
   text-decoration: none;
-  color: #fff;
+  color: var(--s_color);
   justify-self: start;
   margin-left: 20px;
   margin-top: 10px;
@@ -70,7 +70,7 @@ nav .nav-itemX {
 
 nav .nav-linksX {
   text-decoration: none;
-  color: white;
+  color: var(--s_color);
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
@@ -83,7 +83,7 @@ nav .nav-linksX:hover {
 }
 
 .fa-bars {
-  color: #fff;
+  color: var(--s_color);
   padding: 0;
 }
 
@@ -156,7 +156,7 @@ nav .nav-linksX:hover {
   }
 
   .fa-timesX {
-    color: #fff;
+    color: var(--s_color);
     font-size: 2rem;
   }
 
@@ -169,12 +169,12 @@ nav .nav-linksX:hover {
     width: 80%;
     background: var(--p_color);
     text-decoration: none;
-    color: #fff;
+    color: var(--s_color);
     font-size: 1.5rem;
   }
 
   .nav-links-mobileX:hover {
-    background: #fff;
+    background: var(--s_color);
     color: var(--p_color);
     transition: 250ms;
   }

@@ -5,17 +5,20 @@ import "./Whatido.css"
 import Logo from './Logo';
 
 const Whatido = () => {
-    /* {whatido.map((logo) => <Logo key={logo.id} name={logo.name} style={logo.style} />)} */
     return <section id="whatido">
         <h1 className="Whatido-title"><Fade bottom cascade>What I Do ? </Fade></h1>
         <div class="fluid-container">
             <div className="row">
                 <div className="col-lg-5">
-                    <img alt="illustration" className="img-fluid" src={whatido.illustration} />
+                    <Fade bottom cascade>
+                        <div className="box">
+                            {whatido.details.map((detail) => <p>⚡ {detail}</p>)}
+                        </div>
+                    </Fade>
                 </div>
                 <Fade bottom cascade>
                     <div className="col-lg-7 center">
-                        <h2 className="fullstack"> Full Stack Development</h2>
+                        <h2 className="fullstack">{whatido.title}</h2>
                         <div className="fluid-container logo">
                             <div class="row">
 

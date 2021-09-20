@@ -7,7 +7,7 @@
 .fullstack {
   font-size: 40px;
   font-weight: 501;
-  margin-top: 100px;
+  margin-top: 50px;
   color: var(--txtcolor);
 }
 
@@ -36,7 +36,7 @@
   background: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   bottom: -20px;
-  color: #fff;
+  color: var(--s_color);
   content: attr(gloss);
 
   left: 20%;
@@ -62,6 +62,14 @@ div.logo {
   margin-left: 95px;
 }
 
+#whatido .box {
+  margin: 80px 0px 50px 50px;
+  font-size: 20px;
+  text-align: left;
+}
+.box p {
+  color: var(--txtcolor);
+}
 @media (max-width: 990px) {
   .img-fluid {
     margin-top: 30px;
@@ -88,12 +96,18 @@ div.logo {
     margin-right: 200px;
     margin-left: 200px;
   }
+  #whatido .box {
+    margin: 50px;
+  }
 }
 
 @media (max-width: 750px) {
   div.logo {
     margin-right: 100px;
     margin-left: 100px;
+  }
+  #whatido p {
+    text-align: left;
   }
   .i {
     padding: 20px 0px 0px 0px;
@@ -104,5 +118,12 @@ div.logo {
   div.logo {
     margin-left: 60px;
     margin-right: 60px;
+  }
+  #whatido .box {
+    margin: 45px 20px 45px 20px;
+    text-align: left;
+  }
+  .fullstack {
+    font-size: 30px;
   }
 }

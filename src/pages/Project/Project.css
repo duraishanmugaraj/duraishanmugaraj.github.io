@@ -94,7 +94,7 @@ h5.prj-title {
     padding: 50px 100px 50px 100px;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 990px) {
   .project-t .p {
     text-align: center;
     width: 100%;
@@ -106,5 +106,15 @@ h5.prj-title {
   }
   h5.prj-title {
     margin-top: 10px;
+  }
+}
+
+.img-fluid {
+  margin-top: 0;
+}
+
+@media (max-width: 990px) {
+  .project-t .p {
+    padding: 0 15px 0 15px;
   }
 }

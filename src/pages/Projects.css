@@ -5,7 +5,7 @@
 
 .project-title {
   margin: 20px 0 50px 0;
-  color: white;
+  color: var(--s_color);
   text-align: center;
 }
 

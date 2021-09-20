@@ -34,7 +34,7 @@ div.mobile {
 
 .btn {
   margin-top: 30px;
-  background-color: #fff;
+  background-color: var(--s_color);
   color: var(--p_color);
   border: 2px solid var(--p_color) !important;
   border-radius: 0px !important;
@@ -48,7 +48,7 @@ div.mobile {
   overflow: hidden;
 }
 .btn:hover {
-  color: #fff !important;
+  color: var(--s_color) !important;
 }
 .btn:before {
   background: var(--p_color);
@@ -100,8 +100,8 @@ div.mobile {
   }
 }
 
-@media (max-width: 400px) {
-  div.mobile {
-    font-size: 10px !important;
+@media (max-width: 450px) {
+  .d {
+    font-size: 35px;
   }
 }
