@@ -80,9 +80,14 @@ You can change the theme , personal information , social media , skills, resume 
 - Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
 - I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the easiest way.
 
+<<<<<<< HEAD
 ## Show your support
+=======
 
-Give a ⭐️ if this project helped you!
+## Show your support 🙌
+>>>>>>> 2a04a28972421aec2d907cac9b134d66655b4c0b
+
+Give a ⭐️ if this project helped you! 
 
 ## References 👏🏻
 
