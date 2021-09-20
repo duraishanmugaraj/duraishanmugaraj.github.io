@@ -3,7 +3,7 @@
 
 <p align="center"> 
     <a href="https://duraishanmugaraj.github.io/#/" target="_blank">
-    <img src="https://user-images.githubusercontent.com/68941801/133941246-9eda2918-eefb-4293-b503-db0f5f9a31f7.png"></img>
+        <img src="https://github.com/duraishanmugaraj/duraishanmugaraj.github.io/blob/master/portfolio.gif?raw=true"></img>
   </a>
 </p>
 
