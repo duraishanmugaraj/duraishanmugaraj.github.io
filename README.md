@@ -25,9 +25,9 @@
 
 ## Technologies used 🛠️
 
-<p> ✔️ [React](https://reactjs.org/) </p>
-<p> ✔️ [react-reveal](https://www.react-reveal.com/) </p>
-<p> ✔️ [styled-components](https://styled-components.com/) </p>
+✔️ [React](https://reactjs.org/) 
+✔️ [react-reveal](https://www.react-reveal.com/)
+✔️ [styled-components](https://styled-components.com/)
 
 # Customize it to make your own portfolio ✏️
 
