@@ -62,11 +62,6 @@ export const whatido = {
         id: "4"
     },
     {
-        name: "Material UI",
-        iconifyClassName: "logos:material-ui",
-        id: "10"
-    },
-    {
         name: "NodeJS",
         iconifyClassName: "logos:nodejs",
         id: "5"
