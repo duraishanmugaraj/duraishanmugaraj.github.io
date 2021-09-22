@@ -1,6 +1,5 @@
 import React from 'react';
 import Coder from "../components/Animation/Coder"
-import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 import { main } from '../portfolio';
 import "./Main.css"

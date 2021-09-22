@@ -11,7 +11,7 @@ const Whatido = () => {
 
             <div class="fluid-container">
                 <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-lg-5 vertical-center">
                         <div className="box">
                             {whatido.details.map((detail) => <p>⚡ {detail}</p>)}
                         </div>

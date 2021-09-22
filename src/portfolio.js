@@ -22,8 +22,8 @@ export const main = {
 // AboutMe
 export const aboutme = {
     imgLink: "https://raw.githubusercontent.com/duraishanmugaraj/duraishanmugaraj.github.io/master/src/components/Animation/wiz-min.jpg",
-    p1: "Hey,My name is Durai Shanmugaraj. I'm from India, Currently pursuing my final year in Computer Science Engineering.",
-    p2: "I'm a Tech Enthusiast who enjoys building awesome website that solves real world problems. I also do Cycling and Cricket in my free time.",
+    p1: "Hey,My name is Durai Shanmugaraj. I'm from India, currently pursuing my final year in Computer Science Engineering.",
+    p2: "I'm a Tech Enthusiast who enjoys building awesome website that solves real world problems.",
     p3: "I am passionate about Full Stack Dev, Machine Learning & I enjoy learning new things."
 }
 
@@ -31,7 +31,7 @@ export const aboutme = {
 export const whatido = {
     title: "Full Stack Development",
 
-    details: ["Building resposive website using React",
+    details: ["Building responsive website using React",
         "Creating backend application in Node, Express",
         "Building Simple RESTful CRUD APIs",
         "Knowledge of SQL and No-SQL Databases",
@@ -47,6 +47,11 @@ export const whatido = {
         id: "2"
     },
     {
+        name: "Bootstrap",
+        iconifyClassName: "logos:bootstrap",
+        id: "9"
+    },
+    {
         name: "JavaScript",
         iconifyClassName: "logos:javascript",
         id: "3"
@@ -57,6 +62,11 @@ export const whatido = {
         id: "4"
     },
     {
+        name: "Material UI",
+        iconifyClassName: "logos:material-ui",
+        id: "10"
+    },
+    {
         name: "NodeJS",
         iconifyClassName: "logos:nodejs",
         id: "5"
@@ -65,7 +75,18 @@ export const whatido = {
         name: "MongoDB",
         iconifyClassName: "logos:mongodb",
         id: "6"
-    }, {
+    },
+    {
+        name: "MySQL",
+        iconifyClassName: "cib:mysql",
+        id: "11"
+    },
+    {
+        name: "Firebase",
+        iconifyClassName: "logos:firebase",
+        id: "12"
+    },
+    {
         name: "Java",
         iconifyClassName: "logos:java",
         id: "7"

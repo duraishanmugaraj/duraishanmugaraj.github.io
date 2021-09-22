@@ -18,7 +18,7 @@
   text-align: center;
 }
 .i {
-  padding: 40px 25px 30px 25px;
+  padding: 40px 25px 0px 25px;
 }
 .center {
   text-align: center;
@@ -35,7 +35,7 @@
   background: #333;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
-  bottom: -20px;
+  bottom: -40px;
   color: var(--s_color);
   content: attr(gloss);
 
@@ -50,7 +50,7 @@
   border: solid;
   border-color: #333 transparent;
   border-width: 0 6px 6px 6px;
-  bottom: 14px;
+  bottom: -6px;
   content: "";
   left: 50%;
   position: absolute;
@@ -69,6 +69,10 @@ div.logo {
 }
 .box p {
   color: var(--txtcolor);
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
 }
 @media (max-width: 990px) {
   .img-fluid {
@@ -115,6 +119,15 @@ div.logo {
 }
 
 @media (max-width: 590px) {
+  .fullstack {
+    margin-bottom: 0px;
+  }
+  .tags:hover:after {
+    bottom: -35px;
+  }
+  .tags:hover:before {
+    bottom: -2px;
+  }
   div.logo {
     margin-left: 60px;
     margin-right: 60px;
@@ -125,5 +138,8 @@ div.logo {
   }
   .fullstack {
     font-size: 30px;
+  }
+  .i {
+    padding: 40px 25px 10px 25px;
   }
 }
