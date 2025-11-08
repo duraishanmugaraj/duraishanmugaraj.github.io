@@ -15,7 +15,7 @@ export const navbar_name = "Durai"
 // Main Page
 export const main = {
     name: "Durai Shanmugaraj",
-    doamin: "A Web Developer",
+    doamin: "Data Engineer",
     resume: "https://drive.google.com/file/d/1QBCMuJyjsOQxUqmnN3nGQrUnk3GP2-ER/view?usp=sharing"
 }
 
